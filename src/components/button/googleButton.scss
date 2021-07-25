@@ -1,0 +1,27 @@
+
+         .btn-gradg {background-image: linear-gradient(to right, #1FA2FF 0%, #F09819  51%, #e52d27  100%)}
+         .btn-gradg {
+            margin: 10px;
+            padding: 15px 25px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: #e0e0e0;            
+            border: none;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: 'Poppins';
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            i {
+                padding: 0px 5px;
+            }
+        }
+
+          .btn-gradg:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         

@@ -1,0 +1,27 @@
+.btn-grad {
+    background-image: linear-gradient(to right, #DA7F8F 0%, #A7BBC7  51%, #F4ABC4  100%)}
+.btn-grad {
+            margin: 10px;
+            padding: 15px 25px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: #e0e0e0;            
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 500;
+            font-family: 'Poppins';
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    }
+
+    
+         
